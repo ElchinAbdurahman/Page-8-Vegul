@@ -411,12 +411,12 @@ footer-fot {
 
 .box2-group img {
     height: 200px;
-    width: 200px;
+    width: 100%;
 }
 .box2-group i{
     position: absolute;
     top: 40px;
-    right: 40px;
+    right: 10px;
     font-size: 18px;
     color: #000000;
 }
@@ -424,6 +424,7 @@ footer-fot {
     padding-top: 2rem;
 position: relative;
     font-size: 14px;
+    width: 200px;
 }
 
 .btn-more {
@@ -461,7 +462,9 @@ select {
 hr {
     width: 200px;
     margin-top: 5px;
-
+}
+.hr-box-line{
+    width: 100%;
 }
 
 .top-right-number-2 {
