@@ -393,17 +393,18 @@ footer-fot {
 
 .box1-group img {
     height: 200px;
-    width: 200px;
+    width:100%;
 }
 
 .box1-group {
     font-size: 14px;
     position: relative;
+    width: 200px;
 }
 .box1-group i{
     position: absolute;
     top: 10px;
-    right: 40px;
+    right: 10px;
     font-size: 18px;
     color: #000000;
 }
@@ -694,16 +695,6 @@ border: 2px solid rgba(155, 155, 155, 0.137);
 .text4 {
     padding-top: 1.5rem;
 }
-
-.content-images-group {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    flex-wrap: wrap;
-    width: 60%;
-    margin: 0 auto;
-    padding-top: 1rem;
-}
-
 /* ============================================================= */
 
 
